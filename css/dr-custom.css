@@ -758,7 +758,7 @@ img {
     .dr-modal-sm-biggemore .dr-modal__content {
       max-width: 730px;
       border: 1px solid #dedad7;
-      padding: 1em; }
+      padding: 1em !important; }
     .dr-modal-sm-bigger .dr-modal__content > * {
       max-width: calc(510px - 20%);
       margin-left: auto;
@@ -2601,4 +2601,14 @@ input:disabled {
 
 .mt--5 {
   margin-top: -5px !important
+}
+.dr-modal_new_2 .dr-modal__header {
+  border: none;
+}
+.dr-modal_new_2 .dr-h3 {
+  font-size: 24px;
+line-height: 36px;
+font-weight: normal;
+font-family: "MuseoSansCyrl-400", sans-serif;
+text-transform: none;
 }

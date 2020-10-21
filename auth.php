@@ -59,7 +59,7 @@ require_once('head.php');
 
 
 <!-- Авторизация через номер телефона 1  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-1">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-1">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -117,7 +117,7 @@ require_once('head.php');
 
 
 <!-- Авторизация через номер телефона 2  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-2">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-2">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -161,7 +161,7 @@ require_once('head.php');
 <!-- Авторизация через номер телефона 2 -->
 
 <!-- Авторизация через номер телефона 3  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-3">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-3">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -204,7 +204,7 @@ require_once('head.php');
 <!-- Авторизация через номер телефона 3 -->
 
 <!-- Авторизация через номер телефона 4  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-4">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-4">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -249,7 +249,7 @@ require_once('head.php');
 <!-- Авторизация через номер телефона 4 -->
 
 <!-- Авторизация через номер телефона 5  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-5">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-5">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -281,7 +281,7 @@ require_once('head.php');
 <!-- Авторизация через номер телефона 5 -->
 
 <!-- Авторизация через номер телефона 6  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-6">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-6">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -342,7 +342,7 @@ require_once('head.php');
 <!-- Авторизация через номер телефона 6 -->
 
 <!-- Авторизация через номер телефона 7  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-7">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-7">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -444,7 +444,7 @@ require_once('head.php');
 <!-- Авторизация через номер телефона 7 -->
 
 <!-- Авторизация через номер телефона 8  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-8">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-8">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -561,7 +561,7 @@ require_once('head.php');
 
 
 <!-- Авторизация через номер телефона 9  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-9">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-9">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -676,7 +676,7 @@ require_once('head.php');
 <!-- Авторизация через номер телефона 9 -->
 
 <!-- Авторизация через номер телефона 10  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-10">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-10">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -793,7 +793,7 @@ require_once('head.php');
 <!-- Авторизация через номер телефона 10 -->
 
 <!-- Авторизация через номер телефона 11  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="modal-auth-11">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="modal-auth-11">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -897,7 +897,7 @@ require_once('head.php');
 
 
 <!-- Вспомнить пароль  -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="remember-pass-1">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="remember-pass-1">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -938,7 +938,7 @@ require_once('head.php');
 <!-- Вспомнить пароль -->
 
 <!-- Вспомнить пароль  2 -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="remember-pass-2">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="remember-pass-2">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
@@ -979,7 +979,7 @@ require_once('head.php');
 <!-- Вспомнить пароль 2 -->
 
 <!-- Вспомнить пароль  3 -->
-<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new" id="remember-pass-3">
+<div class="dr-modal dr-modal-sm-biggemore dr-modal__default dr-modal_new_2" id="remember-pass-3">
 
     <div class="dr-modal-wrapper">
         <div class="dr-modal__content bg-light">
