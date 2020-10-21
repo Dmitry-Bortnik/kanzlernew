@@ -1,0 +1,285 @@
+.checkout-products__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align:start;
+    -ms-flex-align:start;
+    align-items:flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 15px 18px 15px 13px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #E5E5E5;
+  }
+  @media (max-width: 1024px) {
+    .checkout-products__body {
+        margin: 12px;
+        position: relative;
+        padding-top: 12px;
+        margin-top: 0px;
+     }
+   }
+  .checkout-products__body:last-child {
+    margin-bottom: 0px;
+  }
+  .checkout-products__del {
+    width: 4%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 118px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  @media (max-width: 760px) {
+    .checkout-products__del {
+      width: 28px;
+      height: auto;
+     }
+   }
+   @media (min-width: 760px) and (max-width:1024px) {
+    .checkout-products__del {
+      width:50px;
+    }
+   }
+  .checkout-products__delete {
+    display: block;
+    background: url(/image/icons/delete-icon.svg) no-repeat center;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #D2C5BE;
+  }
+  .checkout-products__title {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 4px;
+    font-weight: normal;
+    font-family: "MuseoSansCyrl-400", sans-serif;
+    max-height: 37px;
+    overflow: hidden;
+    height: 37px;
+  }
+  @media (max-width: 1024px) {
+    .checkout-products__title {
+      margin-bottom: 92px;
+      display: block;
+     }
+   }
+  .checkout-products__action-yes {
+    background: url(/image/icons/gift-icon.svg) no-repeat left center;
+    font-size: 14px;
+    line-height: 13px;
+    color: #FF0000;
+    padding-left: 22px;
+    font-weight: normal;
+    padding-top: 4px;
+    font-family: "MuseoSansCyrl-500", sans-serif;
+  }
+  @media (max-width: 1024px) {
+    .checkout-products__action-yes {
+      margin-bottom: 4px;
+     }
+   }
+  .checkout-products__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 118px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 12px;
+  }
+  @media (max-width: 1024px) { 
+    .checkout-products__info {
+      height: auto;
+      width: calc(100% - 50px);
+    }
+  }
+  @media (min-width: 760px) and (max-width: 1024px) { 
+    .checkout-products__info {
+    width: calc(100% - 80px);
+    }
+  }
+  .checkout-products__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 56%;
+  }
+  @media (max-width: 760px) {
+    .checkout-products__main {
+      width: calc(100% - 40px);
+    }
+   }
+   @media (min-width: 760px) and (max-width:1024px) {
+    .checkout-products__main {
+      width: calc(100% - 50px);
+    }
+   }
+  .checkout-products__char {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #929394;
+  }
+  .checkout-products__char span {
+    min-width: 90px;
+    display: inline-block;
+  }
+  .checkout-products__nom {
+    width: 20%;
+  }
+  @media (max-width: 760px) {
+    .checkout-products__nom {
+      width: auto;
+      position: absolute;
+      top: 94px;
+      left: 99px;
+    }
+   }
+   @media (min-width: 760px) and (max-width:1024px) { 
+    .checkout-products__nom {
+      width: auto;
+      position: absolute;
+      top: 94px;
+      left: 142px;
+    }
+   }
+  .checkout-products__price-col {
+    width: 15%;
+    padding-left: 3px;
+  }
+  @media (max-width: 760px) {
+    .checkout-products__price-col {
+      width: calc(100% - 90px);
+      left: 99px;
+      position: absolute;
+      top: 46px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+     }
+   }
+   @media (min-width: 760px) and (max-width:1024px) { 
+    .checkout-products__price-col {
+      width: calc(100% - 90px);
+      left: 142px;
+      position: absolute;
+      top: 46px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+     }
+   }
+  .checkout-products__sale-text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF0000;
+    font-family: "MuseoSansCyrl-400", sans-serif;
+  }
+  @media (max-width: 1024px) {
+    .checkout-products__sale-text {
+      -webkit-box-ordinal-group:3;
+      -ms-flex-order:2;
+      order:2;
+      width: 50%;
+     }
+   }
+  .checkout-products__old-price {
+    font-size: 14px;
+    line-height: 14px;
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through;
+    color: #929394;
+    margin-top: 4px;
+  }
+  @media (max-width: 1024px) {
+    .checkout-products__old-price {
+      -webkit-box-ordinal-group:2;
+      -ms-flex-order:1;
+      order:1;
+      width: 40%;
+     }
+   }
+  .checkout-products__actual-price {
+    margin-top: 11px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2C180B;
+    font-family: "MuseoSansCyrl-600", sans-serif;
+  }
+  @media (max-width: 1024px) {
+    .checkout-products__actual-price {
+      -webkit-box-ordinal-group:4;
+      -ms-flex-order:3;
+      order:3;
+      width: 75%;
+      margin-top: -2px;
+      line-height: 18px;
+     }
+   }
+  .checkout-products__img {
+    width: 80px;
+    min-width: 80px;
+  }
+  @media (max-width: 760px) {
+    .checkout-products__img {
+      width: 48px;
+      min-width: 48px;
+    }
+   }
+  .checkout-products__img img {
+    display: block;
+  }
+
+  .checkout-products {
+    background: #fff;
+    padding-bottom: 25px;
+  }
+  .checkout-products__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #FBFBFB;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "MuseoSansCyrl-600", sans-serif;
+  }
+  @media (max-width: 1024px) {
+    .checkout-products__header { 
+      display: none;
+    }
+   }
+  .checkout-products__header__col-1 {
+    width: 60%;
+  }
+  .checkout-products__header__col-2 {
+    width: 20%;
+  }
+  .checkout-products__header__col-3 {
+    width: 15%;
+  }

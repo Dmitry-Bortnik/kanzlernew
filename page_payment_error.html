@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- текущие необходимые стили на сайте, не стоит использовать повторно -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/str.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- текущие необходимые стили на сайте, не стоит использовать повторно -->
+
+    <!-- нужные стили для новых сверстанных страниц -->
+    <link rel="stylesheet" href="css/dr-custom.min.css">
+    <!-- нужные стили для новых сверстанных страниц -->
+</head>
+<body>
+
+<!-- рамзетка -->
+<div class="payment-status-page">
+    <div class="wrapper">
+        <div class="main-section columns">
+            <div class="dr-section-inner text-center">
+                <p class="dr-h4 mb-15">Ошибка оплаты</p>
+                <p class="dr-text dr-text-darken mb-15">
+                    Ваш заказ <b>№192192</b> от 22.06.2020 08:30:45 <b>не был оплачен</b>
+                </p>
+                <div class="dr-btn-wrapper__column">
+                    <a href="#" class="dr-btn dr-btn__brown">Оплатить заказ</a>
+                    <a href="#" class="dr-btn dr-btn__outline"
+                       data-modal="modal-change-payment">
+                        Изменить способ оплаты
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- рамзетка -->
+
+
+<!-- modal -->
+<div class="dr-modal dr-modal-sm dr-modal__alert" id="modal-change-payment">
+    <div class="dr-modal-wrapper">
+        <div class="dr-modal__content">
+            <div class="dr-modal__header">
+                <div class="dr-modal__title">
+                    <p class="dr-h3"></p>
+                </div>
+                <button class="dr-modal__close">
+                    <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.011 6.42627L6.01099 18.4263" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.01099 6.42627L18.011 18.4263" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="dr-modal__body">
+                <div class="dr-modal__body-content">
+                    <p class="dr-text__normal text-center">
+                        Способ оплаты будет изменен на <br><b>"Оплата при получении"</b>
+                    </p>
+                </div>
+            </div>
+            <div class="dr-modal__footer">
+                <div class="dr-btn-wrapper dr-btn-wrapper__row justify-content-between">
+                    <a href="#"
+                       id="#btn-modal-alert__yes"
+                       onclick="drModalHide(this)"
+                       class="dr-btn dr-btn__brown">Да</a>
+                    <a href="#"
+                       id="#btn-modal-alert__no"
+                       onclick="drModalHide(this)"
+                       class="dr-btn dr-btn__outline">Нет</a>
+                </div>
+            </div>
+        </div>
+        <div class="dr-modal__overlay"></div>
+    </div>
+</div>
+<!-- modal -->
+
+<script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
+
