@@ -88,19 +88,19 @@ require_once('head.php');
                                 <a href="#" class="auth-another-href">Авторизоваться с помощью email и пароль</a>
                                 <div class="auth-socials">
                                     <a href="#">
-                                        <img src="image/icons/auth-icons/vk_ic.svg" alt="">
+                                        <img src="images/icons/auth-icons/vk_ic.svg" alt="">
                                     </a>
                                     <a href="#">
-                                        <img src="image/icons/auth-icons/facebook_ic.svg" alt="">
+                                        <img src="images/icons/auth-icons/facebook_ic.svg" alt="">
                                     </a>
                                     <a href="#">
-                                        <img src="image/icons/auth-icons/mailru_ic.svg" alt="">
+                                        <img src="images/icons/auth-icons/mailru_ic.svg" alt="">
                                     </a>
                                     <a href="#">
-                                        <img src="image/icons/auth-icons/yandex_ic.svg" alt="">
+                                        <img src="images/icons/auth-icons/yandex_ic.svg" alt="">
                                     </a>
                                     <a href="#">
-                                        <img src="image/icons/auth-icons/ok_ic.svg" alt="">
+                                        <img src="images/icons/auth-icons/ok_ic.svg" alt="">
                                     </a>
                                 </div>
                             </form>
@@ -314,19 +314,19 @@ require_once('head.php');
                                 <a href="#" class="auth-another-href">Авторизоваться с помощью номера телефона</a>
                                 <div class="auth-socials">
                                     <a href="#">
-                                        <img src="image/icons/auth-icons/vk_ic.svg" alt="">
+                                        <img src="images/icons/auth-icons/vk_ic.svg" alt="">
                                     </a>
                                     <a href="#">
-                                        <img src="image/icons/auth-icons/facebook_ic.svg" alt="">
+                                        <img src="images/icons/auth-icons/facebook_ic.svg" alt="">
                                     </a>
                                     <a href="#">
-                                        <img src="image/icons/auth-icons/mailru_ic.svg" alt="">
+                                        <img src="images/icons/auth-icons/mailru_ic.svg" alt="">
                                     </a>
                                     <a href="#">
-                                        <img src="image/icons/auth-icons/yandex_ic.svg" alt="">
+                                        <img src="images/icons/auth-icons/yandex_ic.svg" alt="">
                                     </a>
                                     <a href="#">
-                                        <img src="image/icons/auth-icons/ok_ic.svg" alt="">
+                                        <img src="images/icons/auth-icons/ok_ic.svg" alt="">
                                     </a>
                                 </div>
                             </form>
@@ -466,11 +466,13 @@ require_once('head.php');
                                 <div class="auth-modal__l auth-modal__col">
                                     <div>
                                         <label>Имя <span class="color-red">*</span></label>
-                                        <input type="text" placeholder="Введите имя">
+                                        <input type="text" class="err-input" placeholder="Введите имя">
+                                        <div class="err-block">Неверное имя</div>
                                     </div>
                                     <div>
                                         <label>Фамилия <span class="color-red">*</span></label>
                                         <input type="text" placeholder="Введите фамилию">
+                                        
                                     </div>
                                 </div>
                                 <div class="auth-modal__l auth-modal__col">
@@ -495,7 +497,8 @@ require_once('head.php');
                                 <div class="auth-modal__l auth-modal__col"> 
                                     <div>
                                         <label>Номер телефона <span class="color-red">*</span></label>
-                                        <input disabled type="text" name="phone" value="+7 (927) 341-91-66" placeholder="+7 (___) ___-__-__">
+                                        <input disabled type="text" name="phone" value="+7 (927) 341-91-66" class="err-input" placeholder="+7 (___) ___-__-__">
+                                        <div class="err-block">Неверный номер</div>
                                     </div>
                                     <div>
                                         <button disabled class="dr-btn">подтвердить номер</button>

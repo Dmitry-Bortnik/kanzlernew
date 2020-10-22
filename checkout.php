@@ -23,7 +23,7 @@ require_once('head.php');
                         </div>
                         <div class="checkout-products__main">
                             <div class="checkout-products__img">
-                                <a href=""><img src="image/good1.png" alt=""></a>
+                                <a href=""><img src="images/good1.png" alt=""></a>
                             </div>
                             <div class="checkout-products__info">
                                 <div class="checkout-products__info-top">
@@ -64,7 +64,7 @@ require_once('head.php');
                         </div>
                         <div class="checkout-products__main">
                             <div class="checkout-products__img">
-                                <a href=""><img src="image/good1.png" alt=""></a>
+                                <a href=""><img src="images/good1.png" alt=""></a>
                             </div>
                             <div class="checkout-products__info">
                                 <div class="checkout-products__info-top">

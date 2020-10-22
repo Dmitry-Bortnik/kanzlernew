@@ -34,7 +34,7 @@
     height: 40px;
     line-height: 15px;
     font-size: 14px;
-    margin-top: 11px;
+    margin-top: 18px;
 }
 
 .auth-another-href {
@@ -134,7 +134,7 @@
 .auth-modal__col {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 .auth-modal__col>div:nth-child(1) {
     width: 45%;
@@ -246,4 +246,9 @@ input[name='data-b'] {
     .auth-modal__l {
         margin-bottom: 15px;
     }
+  }
+
+  .auth-modal__col .err-block {
+    text-align: left;
+    padding-top: 5px;
   }
